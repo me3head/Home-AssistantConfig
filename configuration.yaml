@@ -1,5 +1,6 @@
 homeassistant:
   # Name of the location where Home Assistant is running
+  #Adding a comment to test workflow
   name: Walters
   # Location required to calculate the time the sun rises and sets
   latitude: !secret my_latitude
@@ -43,7 +44,7 @@ logbook:
 # Track the sun
 sun:
 
-  
+
 # Text to speech
 tts:
   platform: google
@@ -72,4 +73,3 @@ sensor: !include sensors.yaml
 group: !include groups.yaml
 light: !include smartthings_lights.yaml
 binary_sensor: !include binary_sensors.yaml
-
