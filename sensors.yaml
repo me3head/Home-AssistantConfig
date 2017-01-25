@@ -1,0 +1,48 @@
+- platform: wunderground
+  api_key: !secret wunderground_api_key
+  monitored_conditions:
+    - temp_f
+    - feelslike_f
+    - dewpoint_f
+    - relative_humidity
+    - weather
+    - alerts
+    - wind_mph
+    - wind_gust_mph
+
+#- platform: yweather
+#  forecast: 0
+#  monitored_conditions:
+#    - weather
+#    - temp_max
+#    - temp_min
+
+- platform: pi_hole
+
+- platform: systemmonitor
+  resources:
+    - type: disk_use_percent
+      arg: /
+    - type: memory_use_percent
+    - type: processor_use
+
+#MQTT Sensors
+- platform: mqtt
+  state_topic: "smartthings/Porch Motion Sensor/temperature"
+  name: "Porch Temperature"
+  unit_of_measurement: '°F'
+
+- platform: mqtt
+  state_topic: "smartthings/Porch Motion Sensor/battery"
+  name: "Porch Motion Sensor Battery"
+  unit_of_measurement: '%'
+
+- platform: mqtt
+  state_topic: "smartthings/Mike's Room Motion Sensor/temperature"
+  name: "Mike's Room Temp"
+  unit_of_measurement: '°F'
+
+- platform: mqtt
+  state_topic: "smartthings/Mike's Room Motion Sensor/battery"
+  name: "Mike's Room Motion Sensor Battery"
+  unit_of_measurement: '%'

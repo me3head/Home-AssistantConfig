@@ -1,0 +1,89 @@
+- platform: mqtt
+  name: Hutch Lamp
+  command_topic: "smartthings/Hutch Lamp/switch"
+  state_topic: "smartthings/Hutch Lamp/switch"
+  brightness_command_topic: "smartthings/Hutch Lamp/level"
+  brightness_state_topic: "smartthings/Hutch Lamp/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Medusa Lamp
+  command_topic: "smartthings/Medusa Lamp/switch"
+  state_topic: "smartthings/Medusa Lamp/switch"
+  brightness_command_topic: "smartthings/Medusa Lamp/level"
+  brightness_state_topic: "smartthings/Medusa Lamp/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Elephant Lamp
+  command_topic: "smartthings/Elephant Lantern/switch"
+  state_topic: "smartthings/Elephant Lantern/switch"
+  brightness_command_topic: "smartthings/Elephant Lantern/level"
+  brightness_state_topic: "smartthings/Elephant Lantern/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: "Mike's Floor Lamp"
+  command_topic: "smartthings/Mikes Floor Lamp/switch"
+  state_topic: "smartthings/Mikes Floor Lamp/switch"
+  brightness_command_topic: "smartthings/Mikes Floor Lamp/level"
+  brightness_state_topic: "smartthings/Mikes Floor Lamp/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Couch Lights
+  command_topic: "smartthings/Couch Lights/switch"
+  state_topic: "smartthings/Couch Lights/switch"
+  brightness_command_topic: "smartthings/Couch Lights/level"
+  brightness_state_topic: "smartthings/Couch Lights/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Den Ceiling
+  command_topic: "smartthings/Den Ceiling/switch"
+  state_topic: "smartthings/Den Ceiling/switch"
+  brightness_command_topic: "smartthings/Den Ceiling/level"
+  brightness_state_topic: "smartthings/Den Ceiling/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Upstairs Hall Ceiling 1
+  command_topic: "smartthings/Downstairs Hall Switch/switch"
+  state_topic: "smartthings/Downstairs Hall Switch/switch"
+  brightness_command_topic: "smartthings/Downstairs Hall Switch/level"
+  brightness_state_topic: "smartthings/Downstairs Hall Switch/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+- platform: mqtt
+  name: Upstairs Hall Ceiling 2
+  command_topic: "smartthings/Upstairs Hall Switch/switch"
+  state_topic: "smartthings/Upstairs Hall Switch/switch"
+  brightness_command_topic: "smartthings/Upstairs Hall Switch/level"
+  brightness_state_topic: "smartthings/Upstairs Hall Switch/level"
+  brightness_scale: 100
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+
+

@@ -1,0 +1,13 @@
+- platform: mqtt
+  name: "Porch Motion"
+  state_topic: "smartthings/Porch Motion Sensor/motion"
+  sensor_class: motion
+  payload_on: "active"
+  payload_off: "inactive"
+
+- platform: mqtt
+  name: "Mike's Room Motion"
+  state_topic: "smartthings/Mike's Room Motion Sensor/motion"
+  sensor_class: motion
+  payload_on: "active"
+  payload_off: "inactive"
