@@ -8,3 +8,6 @@ Home Assistant notifications (Log started: 2017-01-26T02:44:58.889046+00:00)
 2017-01-26T02:51:46.238503+00:00 Trigger-testing light.upstairs_hall_ceiling_2 just changed from off to on
 2017-01-26T02:51:54.715627+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from off to on
 2017-01-26T02:52:46.573858+00:00 Trigger-testing light.upstairs_hall_ceiling_2 just changed from on to off
+2017-01-26T03:07:59.968878+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from off to on {'friendly_name': 'Upstairs Hall Ceiling 1', 'brightness': 255, 'supported_features': 1}
+2017-01-26T03:08:00.032095+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from on to on {'friendly_name': 'Upstairs Hall Ceiling 1', 'brightness': 252, 'supported_features': 1}
+2017-01-26T03:09:20.107731+00:00 Trigger-testing light.upstairs_hall_ceiling_2 just changed from off to on {'friendly_name': 'Upstairs Hall Ceiling 2', 'brightness': 252, 'supported_features': 1}
