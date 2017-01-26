@@ -1,0 +1,13 @@
+alias: Automation Testing log 1
+trigger:
+# Listen for all state changes on both Lights
+# https://home-assistant.io/getting-started/automation-trigger/
+  platform: state
+  entity_id: light.upstairs_hall_ceiling_1, light.upstairs_hall_ceiling_1
+action:
+  #Just writing some information to notify.log to test triggering
+  service: notify.notify
+    data_template:
+    message: >
+      {{ trigger.entity_id }} just changed from {{ trigger.from_state.state }}
+      to {{ trigger.to_state.state }}

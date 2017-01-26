@@ -1,0 +1,20 @@
+# alias: Sync Upstairs Hall Lights
+# trigger:
+# # Listen for all state changes on both Lights
+# # https://home-assistant.io/getting-started/automation-trigger/
+#   platform: state
+#   entity_id: light.upstairs_hall_ceiling_1
+# action:
+#   service: notify.notify
+#   
+#
+
+
+  # message: >
+  #   {% if is_state('device_tracker.paulus', 'home') %}
+  #     Ha, Paulus is home!
+  #   {% else %}
+  #     Paulus is at {{ states('device_tracker.paulus') }}.
+  #   {% endif %}
+
+#    {{ states.light.upstairs_hall_ceiling_1.attributes.brightness }}

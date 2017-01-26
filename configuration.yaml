@@ -68,6 +68,12 @@ mqtt:
   username: !secret mqtt_username
   password: !secret mqtt_password
 
+notify:
+  - name: notify
+    platform: file
+    filename: notify.log
+    timestamp: true
+
 #includes
 sensor: !include sensors.yaml
 group: !include groups.yaml
