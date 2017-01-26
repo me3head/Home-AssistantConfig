@@ -1,0 +1,10 @@
+Home Assistant notifications (Log started: 2017-01-26T02:44:58.889046+00:00)
+--------------------------------------------------------------------------------
+2017-01-26T02:44:58.889143+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from off to on
+2017-01-26T02:44:59.011525+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from on to on
+2017-01-26T02:47:58.268566+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from on to off
+2017-01-26T02:48:57.569276+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from off to on
+2017-01-26T02:50:48.131669+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from on to off
+2017-01-26T02:51:46.238503+00:00 Trigger-testing light.upstairs_hall_ceiling_2 just changed from off to on
+2017-01-26T02:51:54.715627+00:00 Trigger-testing light.upstairs_hall_ceiling_1 just changed from off to on
+2017-01-26T02:52:46.573858+00:00 Trigger-testing light.upstairs_hall_ceiling_2 just changed from on to off

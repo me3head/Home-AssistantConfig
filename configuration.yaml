@@ -68,6 +68,8 @@ mqtt:
   username: !secret mqtt_username
   password: !secret mqtt_password
 
+# Notifications to file
+# https://home-assistant.io/components/notify.file/
 notify:
   - name: notify
     platform: file
@@ -79,4 +81,17 @@ sensor: !include sensors.yaml
 group: !include groups.yaml
 light: !include smartthings_lights.yaml
 binary_sensor: !include binary_sensors.yaml
-automation: !include_dir_* automation
+
+automation: 
+  alias: Automation Testing log 1
+  trigger:
+    platform: state
+    entity_id: light.upstairs_hall_ceiling_1, light.upstairs_hall_ceiling_2
+
+# Just writing some information to notify.log to test triggering
+  action:
+    service: notify.notify
+    data_template:
+      message: >
+        Trigger-testing {{ trigger.entity_id }} just changed from {{ trigger.from_state.state }}
+        to {{ trigger.to_state.state }}
